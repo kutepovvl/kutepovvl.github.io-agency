@@ -1,0 +1,61 @@
+@import "bourbon/bourbon"
+@import "variables.sass"
+
+h1, h2, h3, h4, h5, h6
+  font-family: "MontserratBold", $helvetica
+  font-weight: 700
+  color: $head-text
+  line-height: 1.1
+
+h1, h2
+  text-transform: uppercase
+
+h1
+  font-size: 68px
+  line-height: 68px
+  color: #fff
+
+h2
+  font-size: 38px
+
+h3
+  font-family: "DroidSerifItalic", $helvetica
+  font-style: italic
+  font-weight: 400
+  color: $text-color
+  font-size: 16px
+
+h4
+  font-size: 18px
+
+p
+  font-family: "RobotoSlabRegular", $helvetica
+  font-weight: 400
+  font-size: 14px
+  line-height: 1.75
+  color: $text-color
+
+a
+  text-decoration: none
+  color: $accent-color
+  &:hover, &:focus
+    color: $accent-color
+
+nav ul a
+  font-family: "MontserratRegular", $helvetica
+  font-weight: 400
+  letter-spacing: 1px
+  text-transform: uppercase
+  text-decoration: none
+  font-size: 13px
+  color: #fff
+  &:hover, &:focus
+    color: $accent-color
+    text-decoration: none
+
+.navbar-brand
+  font-family: "KaushanScriptRegular", $helvetica
+  font-size: em(30px)
+  font-weight: 400
+  &:hover, &:focus
+    text-decoration: none
